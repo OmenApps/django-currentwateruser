@@ -1,5 +1,6 @@
 from django.conf import settings
 from threading import local
+from watervize.organizations.models.models import WaterUser
 
 WATERUSER_ATTR_NAME = getattr(settings, 'LOCAL_WATERUSER_ATTR_NAME', '_current_wateruser')
 
